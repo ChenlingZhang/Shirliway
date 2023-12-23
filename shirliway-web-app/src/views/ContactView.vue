@@ -21,7 +21,7 @@
 
                             <el-col :span="12">
                                 <span>Job Title</span>
-                                <el-select v-model="value">
+                                <el-select v-model="value" placeholder="">
                                     <el-option v-for="item in options" :key="item.value" :label="item.label"
                                         :value="item.value">
                                     </el-option>

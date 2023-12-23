@@ -13,12 +13,13 @@ export default {
     data() {
         return {
             productType: '',
-            productBannerURL:{
+            productBannerURLDic:{
                 'wood': '',
                 'marble': '',
                 'pattren': '',
-                'soildcolor'
-            }
+                'soildcolor':''
+            },
+            productBannerURL: ''
         }
     },
 
@@ -31,7 +32,9 @@ export default {
             console.log(this.productType)
         },
         setBannerImgURL(){
-
+            if (this.productType === 'wood') {
+                this.productBannerURL = '@/'
+            }
         }
     },
 

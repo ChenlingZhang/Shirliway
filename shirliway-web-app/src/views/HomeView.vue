@@ -10,8 +10,8 @@
         <el-carousel height="500px" width="100%">
           <el-carousel-item>
             <transition name="fade" appear>
-              <el-image :src="require('@/static/img/homepage/banner/shirliway_banner1.jpg')"
-                style="height: auto;"></el-image>
+              <el-image :src="require('@/static/img/homepage/banner/shirliway_banner1.jpg' )"
+                style="height: 500px; width: 100%;"></el-image>
             </transition>
           </el-carousel-item>
         </el-carousel>

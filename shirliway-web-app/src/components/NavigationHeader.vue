@@ -170,7 +170,7 @@ export default {
         this.move2Product('pattren')
       }
       else if (index === '1-4') {
-        this.move2Product('soild color')
+        this.move2Product('soildcolor')
       }
       else if (index === '1-5') {
         this.routerMove('pageNF')

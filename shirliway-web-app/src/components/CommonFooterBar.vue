@@ -36,16 +36,13 @@
 
     <div class="foot-word-bar">
       <div class="foot-word-button-bar">
-        <router-link to="/contact" class="link">Contact Us</router-link>
-        <router-link to="/location" class="link">Locate Us</router-link>
-        <router-link to="/wood" class="link">Product Information</router-link>
-        <router-link to="/lookbook" class="link">Look Book</router-link>
+        <router-link to="/contact" class="link">LOCATE US</router-link>
+        <router-link to="/product?productType=wood" class="link">PRODUCT INFORMATION</router-link>
+        <router-link to="/lookbook" class="link">DOWNLOAD</router-link>
       </div>
       <hr />
       <div class="foot-end-word">
-        <span class="end-word">Typeface using HarmonyOS Sans Fonts </span>
-        <br/>
-        <br/>
+        <span class="end-word" style="margin-right: 50px;">Typeface using HarmonyOS Sans Fonts </span>
         <span class="end-word">©2023 Shriliway. All Right Reserved.</span>
       </div>
     </div>
