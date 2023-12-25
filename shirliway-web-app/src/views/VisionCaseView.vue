@@ -28,7 +28,7 @@
                     <span class="article_title">HOUSE CUSTOMIZED</span>
                 </div>
 
-                <div class="article">
+                <div class="article" style="margin-right: 0px;">
                     <el-image class="article_img" :src="require('@/static/img/visioncasepage/highend.jpg')"></el-image>
                     <span class="article_title">HIGH-END CUSTOM
                         FURNITURE</span>
@@ -91,6 +91,7 @@
     width: 337px;
     height: 546px;
     margin-right: 112px;
+    margin-bottom: 40px;
 }
 
 .article_img {
