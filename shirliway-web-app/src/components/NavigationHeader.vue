@@ -10,7 +10,7 @@
         <el-menu-item index="1-1">WOOD</el-menu-item>
         <el-menu-item index="1-2">MARBLE</el-menu-item>
         <el-menu-item index="1-3">PATTERN</el-menu-item>
-        <el-menu-item index="1-4">SOILD COLOR</el-menu-item>
+        <el-menu-item index="1-4">SOLID COLOR</el-menu-item>
         <el-menu-item index="1-5">ELEMENT</el-menu-item>
       </el-submenu>
 

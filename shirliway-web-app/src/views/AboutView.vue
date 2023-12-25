@@ -93,11 +93,11 @@
 }
 
 .about_body {
-  position: relative;
   display: flex;
-  min-height: 100vh;
-  padding-bottom: 120px;
-  flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 120px;
 }
 
 .footer {
@@ -110,7 +110,6 @@
 
 .banner {
   width: 100%;
-  height: 500px;
 }
 
 .banner .el-image {
